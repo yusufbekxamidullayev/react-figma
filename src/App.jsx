@@ -35,7 +35,23 @@ function App() {
         <section>
           <div className="container">
             <h1 className="about-name">Качество продукции подтверждают <span className="about-name-span">сертификаты</span></h1>
-            
+            <div className="about-futures">
+              <div>
+                <img src="https://lean-group-tau.vercel.app/certificate-4.png" alt="" />
+              </div>
+              <div>
+                <img src="https://lean-group-tau.vercel.app/certificate-5.png" alt="" />
+              </div>
+              <div>
+                <img src="https://lean-group-tau.vercel.app/certificate-3.png" alt="" />
+              </div>
+              <div>
+                <img src="https://lean-group-tau.vercel.app/certificate-5.png" alt="" />
+              </div>
+              <div>
+                <img src="https://lean-group-tau.vercel.app/certificate-3.png" alt="" />
+              </div>
+            </div>
           </div>
         </section>
         <section>

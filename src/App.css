@@ -8,7 +8,13 @@
 .about-name-span {
     color: #EF7C00;
 }
-
+.about-futures{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 32px;
+}
 .about-card {
     padding-top: 40px;
     display: flex;
