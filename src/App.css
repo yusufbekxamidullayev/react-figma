@@ -1,0 +1,461 @@
+.about-name {
+    color: #2C2D2E;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.about-name-span {
+    color: #EF7C00;
+}
+
+.about-card {
+    padding-top: 40px;
+    display: flex;
+    gap: 100px;
+    padding-bottom: 30px;
+}
+@media (max-width:1053px) {
+    .about-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.about-img {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.about-image {
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+}
+
+.about-desc1 {
+    color: #2C2D2E;
+    font-size: 16px;
+}
+
+.about-desc2 {
+    padding-top: 25px;
+}
+
+.about-desc3 {
+    padding-top: 25px;
+}
+
+.our-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 25px;
+}
+
+.our-btn {
+    width: 150px;
+    height: 35px;
+    border: 1px solid #00103D1F;
+    font-size: 14px;
+    color: #EF7C00;
+    border-radius: 50px;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.our-btn:hover {
+    color: white;
+    background-color: #EF7C00;
+    /* border: 1px solid #EF7C00; */
+}
+
+.our-imagess {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 40px;
+}
+@media (max-width:1050px) {
+    .our-imagess{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+    }
+}
+@media (max-width:947px) {
+    .our-imagess{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+@media (max-width:668px) {
+    .our-imagess {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+@media (max-width:470px) {
+    .our-imagess {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+.our-images {
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 203px;
+    width: 100%;
+    height: 281px;
+}
+
+.our-buttons {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.our-button {
+    max-width: 150px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #EF7C00;
+    background-color: white;
+    border-radius: 10px;
+    color: #EF7C00;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.our-button:hover {
+    color: white;
+    background-color: #EF7C00;
+
+}
+
+.banner {
+    width: 100%;
+    max-width: var(--container-width);
+    background: var(--card-bg);
+    border-radius: 20px;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    box-shadow: 0 0 10px 4px #00103D29;
+    position: relative;
+    overflow: hidden;
+    background-color: gray;
+    margin-top: 80px;
+    background: url("https://lean-group-tau.vercel.app/static/media/product-banner.8e601081aa064f4e82a6.png");
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    min-height: 360px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* left column (text + form) */
+.left {
+    flex: 1.1;
+    min-width: 320px;
+}
+
+.heading {
+    font-size: 32px;
+    margin: 0 0 8px 0;
+    font-weight: 700;
+    color: #2C2D2E;
+}
+
+.heading .accent {
+    color: #d56a0e;
+}
+
+.sub {
+    color: #2C2D2E;
+    font-size: 15px;
+    padding-bottom: 24px;
+}
+
+.formm {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.form1 {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 220px;
+    width: 100%;
+}
+
+.form2 {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 455px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.input2 {
+    max-width: 500px;
+    width: 100%;
+}
+
+.input,
+textarea {
+    border: 1px solid #e1e4e7;
+    padding: 12px 14px;
+    font-size: 14px;
+    outline: none;
+    background: #fff;
+    box-shadow: 0 6px 18px rgba(60, 60, 60, 0.04);
+}
+
+.input::placeholder {
+    color: #b9c0c6;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 42px;
+    height: 42px;
+    background: linear-gradient(180deg, #fff, #fff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f0f0f0;
+    color: #d56a0e;
+    font-weight: 700;
+    box-shadow: 0 6px 14px rgba(160, 120, 60, 0.06);
+}
+
+textarea {
+    grid-column: 1 / -1;
+    min-height: 84px;
+    resize: none;
+}
+
+.cta-row {
+    grid-column: 1 / -1;
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.btn {
+    background: #d56a0e;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 8px 30px rgba(240, 127, 20, 0.28), 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform .12s ease, box-shadow .12s ease;
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+.btn:focus {
+    outline: 3px solid rgba(240, 127, 20, 0.12);
+}
+
+/* right column (image composition) */
+.right {
+    width: 48%;
+    max-width: 520px;
+    min-width: 320px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 18px;
+}
+
+/* white pedestals */
+.pedestal {
+    width: 90%;
+    height: 160px;
+    background: linear-gradient(180deg, #ffffff, #fbfbfb);
+    border-radius: 8px;
+    box-shadow: 0 18px 40px rgba(20, 20, 20, 0.06);
+    position: relative;
+    transform: translateY(12px);
+}
+
+.pedestal.small {
+    width: 60%;
+    height: 120px;
+    position: absolute;
+    right: 10%;
+    bottom: 28px;
+    transform: translateY(0);
+    border-radius: 10px;
+}
+
+.product-stack {
+    position: absolute;
+    right: 8%;
+    bottom: 78px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.right-image img {
+    max-width: 320px;
+    pointer-events: none;
+    user-select: none;
+    display: block;
+    filter: drop-shadow(0 18px 40px rgba(20, 20, 20, 0.08));
+    transform: translateX(6px);
+}
+
+/* decorative orange circle */
+.dot {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--accent);
+    right: 24%;
+    top: 24%;
+    box-shadow: 0 6px 18px rgba(240, 127, 20, 0.12);
+}
+
+.group-name {
+    color: #2C2D2E;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.group-name-span {
+    color: #d56a0e;
+}
+
+.group-img{
+    max-width: 203px;
+    width: 100%;
+    height: 203px;
+    border-radius: 50%;
+}
+.group-cards{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 32px;
+}
+.group-card{
+    width: 205px;
+    height: 336px;
+}
+.group-page{
+    padding-top: 12px;
+    font-size: 18px;
+    color: #2C2D2E;
+    text-align: center;
+}
+.group-desc{
+    font-size: 15px;
+    color: #919399;
+    text-align: center;
+    padding-top: 5px;
+}
+.group-phone{
+    color: #2C2D2E;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 12px;
+}
+.group-email{
+    color: #2C2D2E;
+    font-size: 15px;
+    padding-top: 8px;
+    text-align: center;
+}
+.new-name{
+    color: #2C2D2E;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.new-img{
+    max-width: 426px;
+    width: 100%;
+    height: 203px;
+}
+.new-page{
+    color: #919399;
+    font-size: 15px;
+    padding-top: 14px;
+}
+.new-desc{
+    color: #2C2D2E;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+}
+.new-img2{
+    max-width: 319px;
+    width: 100%;
+    height: 203px;
+}
+.new-img3{
+    max-width: 319px;
+    width: 100%;
+    height: 203px;
+}
+.new-cards{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 30px;
+}
+@media (max-width:920px) {
+    .banner {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .right {
+        width: 100%;
+        order: 2;
+        margin-top: 6px;
+        max-width: 100%
+    }
+
+    .form {
+        grid-template-columns: 1fr;
+    }
+
+    .phone {
+        width: 100%;
+    }
+
+    .phone .input {
+        width: 100%;
+    }
+}

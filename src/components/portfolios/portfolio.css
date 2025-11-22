@@ -1,0 +1,115 @@
+
+.swiper-pagination {
+    right: 100px;
+}
+
+.hero {
+    padding: 40px;
+    background: url(https://lean-group-tau.vercel.app/static/media/hero-bg.61a0ec1a2841a6835c19.png);
+    height: 527px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+}
+
+.hero-content {
+    max-width: 50%;
+    text-align: left;
+}
+
+.hero-name {
+    padding-right: 240px;
+    color: #2C2D2E;
+    font-size: 17px;
+    padding-top: 150px;
+}
+
+.hero-name-2 {
+    padding-right: 240px;
+    color: silver;
+    font-size: 17px;
+    padding-top: 150px;
+}
+
+.hero-page {
+    padding-right: 180px;
+    color: #2C2D2E;
+    font-size: 40px;
+    padding-top: 15px;
+}
+
+.hero-page-2 {
+    padding-right: 180px;
+    color: silver;
+    font-size: 40px;
+    padding-top: 15px;
+}
+
+.hero-descreption {
+    color: #2C2D2E;
+    font-size: 19px;
+    padding-top: 17px;
+}
+.hero-descreption-2 {
+    color: silver;
+    font-size: 19px;
+    padding-top: 17px;
+}
+.hero-content button {
+    padding: 0.75rem 1.5rem;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.hero-btn {
+    margin-top: 16px;
+    margin-right: 350px;
+}
+
+.hero2 {
+    padding: 40px;
+    background: url(https://lean-group-tau.vercel.app/static/media/hero-bg-2.d61a9cd353986914c27c.jpg);
+    height: 527px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+}
+
+.hero3 {
+    padding: 40px;
+    background: url(https://lean-group-tau.vercel.app/static/media/hero-bg-3.6bee3d305f573e4024ea.jpg);
+    height: 527px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero2 {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero3 {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+}
