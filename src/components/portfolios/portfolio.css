@@ -1,4 +1,6 @@
-
+.swiper-navigation-icon {
+    display: none;
+}
 .swiper-pagination {
     right: 100px;
 }
@@ -56,14 +58,7 @@
     font-size: 19px;
     padding-top: 17px;
 }
-.hero-content button {
-    padding: 0.75rem 1.5rem;
-    background-color: orange;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 18px;
-}
+
 
 .hero-btn {
     margin-top: 16px;

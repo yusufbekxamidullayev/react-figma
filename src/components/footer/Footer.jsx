@@ -3,7 +3,7 @@ import './footer.css'
 function Footer() {
     return (
         <div>
-            <footer>
+            <footer className='mt-[65px]'>
                 <div className="container">
                     <div className='footer-contact'>
                         <div>

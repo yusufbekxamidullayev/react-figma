@@ -1,10 +1,12 @@
 import Footer from "./components/footer/Footer"
 import Header from "./components/header/Header"
 import Portfolios from "./components/portfolios/Portfolios"
+import Mode from "./components/mode/Mode"
 import "../src/App.css"
 import { Pagination } from "swiper/modules"
 import { BsPeopleFill } from "react-icons/bs";
 import { FaPhoneAlt } from "react-icons/fa";
+import ReactTabs from "./components/react-tabs/ReactTabs"
 
 
 function App() {
@@ -36,28 +38,15 @@ function App() {
           <div className="container">
             <h1 className="about-name">Качество продукции подтверждают <span className="about-name-span">сертификаты</span></h1>
             <div className="about-futures">
-              <div>
-                <img src="https://lean-group-tau.vercel.app/certificate-4.png" alt="" />
-              </div>
-              <div>
-                <img src="https://lean-group-tau.vercel.app/certificate-5.png" alt="" />
-              </div>
-              <div>
-                <img src="https://lean-group-tau.vercel.app/certificate-3.png" alt="" />
-              </div>
-              <div>
-                <img src="https://lean-group-tau.vercel.app/certificate-5.png" alt="" />
-              </div>
-              <div>
-                <img src="https://lean-group-tau.vercel.app/certificate-3.png" alt="" />
-              </div>
+              <Mode />
             </div>
+
           </div>
         </section>
         <section>
           <div className="container">
             <h1 className="about-name">Наша <span className="about-name-span">продукция</span></h1>
-            <div className="our-btns">
+            {/* <div className="our-btns">
               <button className="our-btn">Ламинатные тубы</button>
               <button className="our-btn">Экструзионные тубы</button>
               <button className="our-btn">Другая упаковка</button>
@@ -78,7 +67,8 @@ function App() {
               <div className="our-images">
                 <img src="https://lean-group-tau.vercel.app/product-5.png" alt="" />
               </div>
-            </div>
+            </div> */}
+            <ReactTabs/>
             <div className="our-buttons">
               <button className="our-button">
                 Перейти в каталог
@@ -116,7 +106,7 @@ function App() {
                       </div>
                     </div>
                   </div>
-                  
+
 
                   <div className="form2">
                     <textarea className="input2" placeholder="Комментарий"></textarea>
@@ -236,7 +226,7 @@ function App() {
           </div>
         </section>
       </main>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
