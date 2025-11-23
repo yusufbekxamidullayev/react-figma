@@ -1,9 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 // import { MdAddShoppingCart } from "react-icons/md";
 import { IoMenu } from "react-icons/io5";
 import "../header/header.css"
+import { FaMoon } from "react-icons/fa";
+import { FaSun } from "react-icons/fa";
+
 
 function Header() {
+    const [dark , setDark] = useState(false)
+
+
+    function changeMode(){
+        document.documentElement.classList.toggle("dark")
+        setDark(!dark)
+    }
     return (
         <div className='header'>
             <header>
@@ -40,12 +50,11 @@ function Header() {
                         </div>
                         <div>
                             <ul className='navbar-menu'>
-                                <li className='navbar-menu-li'>
-                                    <a className='navbar-menu-a' href="">RU</a>
-                                </li>
-                                <li>
-                                    <a className='navbar-menu-a' href="">EN</a>
-                                </li>
+                                <button onClick={changeMode}>
+                                    {
+                                        dark ? <FaSun className='text-yellow-400 text-[24px]' /> : <FaMoon className='text-[24px]'/>
+                                    }
+                                </button>
                             </ul>
                             <div className='toggle'>
                                 <IoMenu />

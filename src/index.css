@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 * {
   /* margin: 0;
@@ -14,4 +15,7 @@ li{
 }
 a{
   text-decoration: none;
+}
+.react-tabs__tab-list {
+  border-bottom: none;
 }

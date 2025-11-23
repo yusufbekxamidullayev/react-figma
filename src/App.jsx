@@ -15,7 +15,7 @@ function App() {
       <div className="container">
         <Header />
       </div>
-      <main>
+      <main className="dark:bg-gray-800">
         <section>
           <Portfolios />
         </section>

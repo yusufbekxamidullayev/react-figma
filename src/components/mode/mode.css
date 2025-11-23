@@ -1,3 +1,6 @@
+.react-tabs__tab-list{
+    border-bottom: none;
+}
 .swiper-pagination-bullet{
     bottom: 100px;
     background-color: #EF7C00;
