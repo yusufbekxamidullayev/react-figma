@@ -3,11 +3,9 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: white;
     z-index: 10;
     padding-bottom: 10px;
     padding: 10px 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .navbar {
@@ -25,14 +23,14 @@
 .navbar-menu-li {
     padding-right: 15px;
     height: 30px;
-    border-right: 1px solid #00103d2d;
+    /* border-right: 1px solid #00103d2d; */
     display: flex;
     align-items: center;
 }
 
 .navbar-menu-a {
     font-size: 18px;
-    color: #2C2D2E;
+    /* color: #2C2D2E; */
     transition: color 0.2s ease;
 }
 

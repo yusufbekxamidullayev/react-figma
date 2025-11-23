@@ -15,7 +15,7 @@ function Header() {
         setDark(!dark)
     }
     return (
-        <div className='header'>
+        <div className='header bg-[white] shadow-[0_4px_8px_rgba(0,0,0,0.2)] dark:bg-gray-800 dark:shadow-md dark:shadow-[white]'>
             <header>
                 <div className='container'>
                     <div className='navbar '>
@@ -24,27 +24,27 @@ function Header() {
                         </div>
                         <div>
                             <ul className='navbar-menu'>
-                                <li className='navbar-menu-li'>
-                                    <a href="#" className="navbar-menu-a">Продукция</a>
+                                <li className='navbar-menu-li border-r-[1px] border-r-[#00103d2d] dark:border-r-[white]'>
+                                    <a href="#" className="navbar-menu-a text-[#2C2D2E] dark:text-[white]">Продукция</a>
                                 </li>
-                                <li className='navbar-menu-li'>
+                                <li className='navbar-menu-li border-r-[1px] border-r-[#00103d2d] dark:border-r-[white]'>
 
-                                    <a href="#" className="navbar-menu-a">Сертификаты</a>
+                                    <a href="#" className="navbar-menu-a text-[#2C2D2E] dark:text-[white]">Сертификаты</a>
                                 </li>
-                                <li className='navbar-menu-li'>
-                                    <a href="#" className="navbar-menu-a">Наша команда</a>
+                                <li className='navbar-menu-li border-r-[1px] border-r-[#00103d2d] dark:border-r-[white]'>
+                                    <a href="#" className="navbar-menu-a text-[#2C2D2E] dark:text-[white]">Наша команда</a>
                                 </li>
-                                <li className='navbar-menu-li'>
-                                    <a href="#" className="navbar-menu-a">О нас</a>
+                                <li className='navbar-menu-li border-r-[1px] border-r-[#00103d2d] dark:border-r-[white]'>
+                                    <a href="#" className="navbar-menu-a text-[#2C2D2E] dark:text-[white]">О нас</a>
                                 </li>
-                                <li className='navbar-menu-li'>
-                                    <a href="#" className="navbar-menu-a">Новости</a>
+                                <li className='navbar-menu-li border-r-[1px] border-r-[#00103d2d] dark:border-r-[white]'>
+                                    <a href="#" className="navbar-menu-a text-[#2C2D2E] dark:text-[white]">Новости</a>
                                 </li>
-                                <li className='navbar-menu-li'>
-                                    <a href="#" className="navbar-menu-a">Вакансии</a>
+                                <li className='navbar-menu-li border-r-[1px] border-r-[#00103d2d] dark:border-r-[white]'>
+                                    <a href="#" className="navbar-menu-a text-[#2C2D2E] dark:text-[white]">Вакансии</a>
                                 </li>
-                                <li className='navbar-menu-li'>
-                                    <a href="#" className="navbar-menu-a">Контакты</a>
+                                <li className='navbar-menu-li border-r-[1px] border-r-[#00103d2d] dark:border-r-[white]'>
+                                    <a href="#" className="navbar-menu-a text-[#2C2D2E] dark:text-[white]">Контакты</a>
                                 </li>
                             </ul>
                         </div>

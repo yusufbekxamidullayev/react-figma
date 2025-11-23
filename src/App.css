@@ -1,5 +1,5 @@
 .about-name {
-    color: #2C2D2E;
+    /* color: #2C2D2E; */
     font-size: 32px;
     text-align: center;
     padding-top: 40px;
@@ -41,7 +41,7 @@
 }
 
 .about-desc1 {
-    color: #2C2D2E;
+    /* color: #2C2D2E; */
     font-size: 16px;
 }
 
@@ -396,7 +396,7 @@ textarea {
 .group-page{
     padding-top: 12px;
     font-size: 18px;
-    color: #2C2D2E;
+    /* color: #2C2D2E; */
     text-align: center;
 }
 .group-desc{
@@ -406,19 +406,18 @@ textarea {
     padding-top: 5px;
 }
 .group-phone{
-    color: #2C2D2E;
+    /* color: #2C2D2E; */
     font-size: 16px;
     text-align: center;
     padding-top: 12px;
 }
 .group-email{
-    color: #2C2D2E;
+    /* color: #2C2D2E; */
     font-size: 15px;
     padding-top: 8px;
     text-align: center;
 }
 .new-name{
-    color: #2C2D2E;
     font-size: 32px;
     text-align: center;
     padding-top: 80px;
@@ -435,7 +434,7 @@ textarea {
     padding-top: 14px;
 }
 .new-desc{
-    color: #2C2D2E;
+    /* color: #2C2D2E; */
     font-size: 18px;
     padding-top: 8px;
     padding-bottom: 12px;
@@ -452,7 +451,6 @@ textarea {
 }
 .new-cards{
     display: flex;
-    align-items: center;
     gap: 40px;
     padding-bottom: 30px;
 }
