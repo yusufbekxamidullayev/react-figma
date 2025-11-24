@@ -18,7 +18,7 @@ function Header() {
         <div className='header bg-[white] shadow-[0_4px_8px_rgba(0,0,0,0.2)] dark:bg-gray-800 dark:shadow-md dark:shadow-[white]'>
             <header className='px-[10px]'>
                 <div className='container'>
-                    <div className='navbar '>
+                    <div className='flex items-center justify-between'>
                         <div>
                             <img src="https://lean-group-tau.vercel.app/logo.svg" alt="" />
                         </div>

@@ -21,7 +21,7 @@ function Footer() {
                             </div>
                         </div>
                     </div><hr className='dark:text-[white]'/>
-                    <div className='flex flex-col items-center sm:flex sm:flex-row gap-[90px] pt-[16px]'>
+                    <div className='flex flex-col items-center lg:flex lg:flex-row gap-[90px] pt-[16px] xl:'>
                         <div className='grid grid-cols-2  sm:flex gap-[90px]'>
                             <div className='footer-card'>
                                 <h1 className='footer-page text-[#2C2D2E] dark:text-[white]'>Продукция</h1>
