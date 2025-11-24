@@ -440,8 +440,8 @@ textarea {
     padding-bottom: 12px;
 }
 .new-img2{
-    max-width: 319px;
-    width: 100%;
+    /* max-width: 319px; */
+    /* width: 100%; */
     height: 203px;
 }
 .new-img3{

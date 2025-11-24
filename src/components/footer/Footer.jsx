@@ -3,7 +3,7 @@ import './footer.css'
 function Footer() {
     return (
         <div>
-            <footer className='px-[10px] sm:bg-[#00103D0F] dark:bg-gray-800'>
+            <footer className='px-[10px] pr-[50px] sm:bg-[#00103D0F] pr-[0px] dark:bg-gray-800'>
                 <div className="container">
                     <div className='footer-contact'>
                         <div>

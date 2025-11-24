@@ -6,7 +6,7 @@ function ReactTabs() {
   return (
       <Tabs>
           <TabList>
-              <div className='our-btns'>
+              <div className='our-btns flex flex-col  sm:flex sm:flex-row'>
                   <Tab>
                       <button className="our-btn">Ламинатные тубы</button>
                   </Tab>

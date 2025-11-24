@@ -46,11 +46,11 @@ function App() {
         <section>
           <div className="container">
             <h1 className="about-name text-[#2C2D2E] dark:text-[white]">Наша <span className="about-name-span">продукция</span></h1>
-            <ReactTabs/>
             <div className="our-buttons">
               <button className="our-button">
                 Перейти в каталог
               </button>
+              <ReactTabs />
             </div>
           </div>
         </section>
@@ -178,8 +178,8 @@ function App() {
                 </div>
               </div>
               <div>
-                <div>
-                  <img className="new-img2" src="https://lean-group-tau.vercel.app/news-2.png" alt="" />
+                <div className="max-w-[3px] w-full">
+                  <img className="max-w-[3px] w-full" src="https://lean-group-tau.vercel.app/news-2.png" alt="" />
                 </div>
                 <div>
                   <p className="new-page">21.01.2022</p>
