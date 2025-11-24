@@ -18,19 +18,19 @@
     display: flex;
     align-items: center;
     gap: 12px;
+    margin-left: auto;
 }
 
 .navbar-menu-li {
     padding-right: 15px;
     height: 30px;
-    /* border-right: 1px solid #00103d2d; */
     display: flex;
     align-items: center;
+    flex-shrink: 1;
 }
 
 .navbar-menu-a {
     font-size: 18px;
-    /* color: #2C2D2E; */
     transition: color 0.2s ease;
 }
 

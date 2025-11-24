@@ -16,7 +16,7 @@ function Header() {
     }
     return (
         <div className='header bg-[white] shadow-[0_4px_8px_rgba(0,0,0,0.2)] dark:bg-gray-800 dark:shadow-md dark:shadow-[white]'>
-            <header>
+            <header className='px-[10px]'>
                 <div className='container'>
                     <div className='navbar '>
                         <div>
@@ -56,6 +56,8 @@ function Header() {
                                     }
                                 </button>
                             </ul>
+                        </div>
+                        <div>
                             <div className='toggle'>
                                 <IoMenu />
                             </div>

@@ -19,9 +19,17 @@ export default function App() {
                     clickable: true,
                 }}
                 breakpoints={{
-                    640: {
+                    0: {
+                        slidesPerView: 1,
+                        spaceBetween: 10,
+                    },
+                    450: {
                         slidesPerView: 2,
                         spaceBetween: 20,
+                    },
+                    640: {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
                     },
                     768: {
                         slidesPerView: 4,

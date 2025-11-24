@@ -101,7 +101,7 @@ function App() {
         <section>
           <div className="container">
             <h1 className="group-name">Наша <span className="group-name-span">команда</span></h1>
-            <div className="group-cards">
+            <div className="flex flex-col items-center sm:flex sm:flex-row justify-center gap-[40px] pt-[30px] pb-[32px]">
               <div className="group-card">
                 <div className="group-image">
                   <img className="group-img" src="https://lean-group-tau.vercel.app/staff-1.png" alt="" />
@@ -167,7 +167,7 @@ function App() {
         <section className="pb-[65px]">
           <div className="container">
             <h1 className="new-name text-[#2C2D2E] dark:text-[white]">Новости</h1>
-            <div className="new-cards">
+            <div className="flex flex-col items-center sm:flex sm:flex-row gap-[40px] pb-[30px]">
               <div>
                 <div>
                   <img className="new-img" src="https://lean-group-tau.vercel.app/news-1.png" alt="" />
