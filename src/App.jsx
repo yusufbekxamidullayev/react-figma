@@ -178,8 +178,8 @@ function App() {
                 </div>
               </div>
               <div>
-                <div className="max-w-[3px] w-full">
-                  <img className="max-w-[3px] w-full" src="https://lean-group-tau.vercel.app/news-2.png" alt="" />
+                <div className="">
+                  <img className="new-img" src="https://lean-group-tau.vercel.app/news-2.png" alt="" />
                 </div>
                 <div>
                   <p className="new-page">21.01.2022</p>
